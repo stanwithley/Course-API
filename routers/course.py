@@ -13,7 +13,7 @@ def create_course(inp: CourseCreate):
     _id = crud.create_course(inp.model_dump())
     return {"id": _id}
 
-@router.get("/{course_id}", response_model=CourseOut)
+@router.get("/courses/{course_id}", response_model=CourseOut)
 def get_course(course_id: str):
     doc = crud.get_course(course_id)
     if not doc:
