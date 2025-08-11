@@ -8,8 +8,7 @@ router = APIRouter(prefix="/courses", tags=["courses"])
 def list_courses():
     return crud.list_courses()
 
-
-@router.post("/{course_id}", response_model=CourseOut)
+@router.post("/courses/", response_model=dict)
 def create_course(inp: CourseCreate):
     _id = crud.create_course(inp.model_dump())
     return {"id": _id}
