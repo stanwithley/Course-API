@@ -31,7 +31,7 @@ def update_course(course_id: str, inp: CourseUpdate):
 def delete_course(course_id: str):
     deleted = crud.delete_course(course_id)
     if deleted == 0:
-        raise HTTPException(404, detail="Course not found")
+        raise HTTPException(status_code=404, detail="Course not found")
     return {"deleted": True}
 
 @router.get("/instructors/{course_id}/courses", response_model=list[CourseOut])
