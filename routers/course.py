@@ -27,7 +27,7 @@ def update_course(course_id: str, inp: CourseUpdate):
         raise HTTPException(status_code=404, detail="Course not found")
     return doc
 
-@router.delete("/{course_id}", status_code=204)
+@router.delete("/courses/{course_id}")
 def delete_course(course_id: str):
     deleted = crud.delete_course(course_id)
     if deleted == 0:
