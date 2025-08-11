@@ -18,5 +18,5 @@ def delete_student(student_id: str):
     res = students_col.delete_one({"_id": ObjectId(student_id)})
     return res.deleted_count
 
-def list_instructors():
+def list_students():
     return [obj_id_to_str(d) for d in students_col.find()]
