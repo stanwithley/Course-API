@@ -20,7 +20,7 @@ def get_course(course_id: str):
         raise HTTPException(status_code=404, detail="Course not found")
     return doc
 
-@router.put("/{course_id}", response_model=CourseOut)
+@router.put("/courses/{course_id}", response_model=CourseOut)
 def update_course(course_id: str, inp: CourseUpdate):
     doc = crud.update_course(course_id, {k: v for k, v in inp.model_dump().items() if v is not None})
     if not doc:
