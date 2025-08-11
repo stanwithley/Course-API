@@ -40,3 +40,23 @@ course_api/
     ├── course.py
     ├── student.py
     └── enrollment.py
+
+
+| موجودیت    | متد    | مسیر                      | توضیح                   |
+| ---------- | ------ | ------------------------- | ----------------------- |
+| Instructor | GET    | `/instructors/`           | لیست همه مدرس‌ها        |
+| Instructor | POST   | `/instructors/`           | ساخت مدرس جدید          |
+| Instructor | GET    | `/instructors/{id}`       | دریافت جزئیات یک مدرس   |
+| Instructor | PUT    | `/instructors/{id}`       | ویرایش مدرس             |
+| Instructor | DELETE | `/instructors/{id}`       | حذف مدرس                |
+| Course     | GET    | `/courses/`               | لیست همه دوره‌ها        |
+| Course     | POST   | `/courses/`               | ساخت دوره جدید          |
+| Course     | GET    | `/courses/{id}`           | دریافت جزئیات یک دوره   |
+| Course     | PUT    | `/courses/{id}`           | ویرایش دوره             |
+| Course     | DELETE | `/courses/{id}`           | حذف دوره                |
+| Student    | GET    | `/students/`              | لیست همه دانشجوها       |
+| Student    | POST   | `/students/`              | ساخت دانشجو             |
+| Enrollment | POST   | `/enrollments/`           | ثبت‌نام دانشجو در دوره  |
+| Enrollment | GET    | `/students/{id}/courses/` | لیست دوره‌های یک دانشجو |
+| Enrollment | GET    | `/courses/{id}/students/` | لیست دانشجوهای یک دوره  |
+
