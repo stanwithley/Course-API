@@ -5,8 +5,8 @@ import crud.course as crud
 router = APIRouter(prefix="/courses", tags=["courses"])
 
 @router.get("/courses/", response_model=list[CourseOut])
-def list_instructors():
-    return crud.list_course()
+def list_courses():
+    return crud.list_courses()
 
 
 @router.post("/{course_id}", response_model=CourseOut)
