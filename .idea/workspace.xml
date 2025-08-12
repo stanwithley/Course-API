@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b511b708-2670-481b-9796-9fa11c9a50d1" name="Changes" comment="changed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/instructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/instructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/course.py" afterDir="false" />
-    </list>
+    <list default="true" id="b511b708-2670-481b-9796-9fa11c9a50d1" name="Changes" comment="Merge branch 'main' of https://github.com/stanwithley/Course-API&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;crud/course.py&#10;#&#9;crud/student.py&#10;#&#9;models/course.py&#10;#&#9;models/instructor.py&#10;#&#9;routers/course.py&#10;#&#9;routers/enrollment.py&#10;#&#9;routers/instructor.py&#10;#&#9;routers/student.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
