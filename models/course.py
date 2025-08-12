@@ -16,5 +16,5 @@ class CourseOut(BaseModel):
     id: str
     title: str
     description: Optional[str]
-    instructor_id: str
+    instructor_id: object
     price: float

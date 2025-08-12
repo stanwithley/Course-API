@@ -12,4 +12,4 @@ class InstructorUpdate(BaseModel):
 class InstructorOut(BaseModel):
     id: str
     name: str
-    bio: Optional[str]
+    bio: Optional[str] = None

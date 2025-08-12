@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b511b708-2670-481b-9796-9fa11c9a50d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/course_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/course_api.iml" afterDir="false" />
+    <list default="true" id="b511b708-2670-481b-9796-9fa11c9a50d1" name="Changes" comment="changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/enrollment.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/enrollment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/instructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/instructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crud/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/crud/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/enrollment.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/enrollment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/instructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/instructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/course.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/enrollment.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/enrollment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/instructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/instructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/student.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "stanwithley"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stanwithley&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/stanwithley/Course-API.git",
-    "accountId": "0295180c-adb8-4fb4-bea5-825ee33fdf1f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stanwithley/Course-API.git&quot;,
+    &quot;accountId&quot;: &quot;0295180c-adb8-4fb4-bea5-825ee33fdf1f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -61,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging main",
-    "last_opened_file_path": "C:/Users/Stanley/Desktop/StarCoach/course_api/routers",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stanley/Desktop/StarCoach/course_api/routers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Stanley\Desktop\StarCoach\course_api\routers" />
@@ -105,8 +92,99 @@
       <workItem from="1754907278749" duration="1551000" />
       <workItem from="1754909379644" duration="6829000" />
       <workItem from="1754917908302" duration="1427000" />
-      <workItem from="1754936503841" duration="978000" />
+      <workItem from="1754936503841" duration="3065000" />
+      <workItem from="1754946266209" duration="1158000" />
+      <workItem from="1754995321981" duration="1700000" />
     </task>
+    <task id="LOCAL-00001">
+      <option name="closed" value="true" />
+      <created>1754937780612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754937780612</updated>
+    </task>
+    <task id="LOCAL-00002" summary="s was removed">
+      <option name="closed" value="true" />
+      <created>1754941808663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941808663</updated>
+    </task>
+    <task id="LOCAL-00003" summary="student added">
+      <option name="closed" value="true" />
+      <created>1754941823079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941823079</updated>
+    </task>
+    <task id="LOCAL-00004" summary="list added">
+      <option name="closed" value="true" />
+      <created>1754941837611</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941837611</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed">
+      <option name="closed" value="true" />
+      <created>1754941849112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941849112</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed">
+      <option name="closed" value="true" />
+      <created>1754941859031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941859031</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed">
+      <option name="closed" value="true" />
+      <created>1754941865670</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941865670</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changed">
+      <option name="closed" value="true" />
+      <created>1754941872295</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941872295</updated>
+    </task>
+    <task id="LOCAL-00009" summary="error added">
+      <option name="closed" value="true" />
+      <created>1754941885640</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941885640</updated>
+    </task>
+    <task id="LOCAL-00010" summary="list added">
+      <option name="closed" value="true" />
+      <created>1754941905649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941905649</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changed">
+      <option name="closed" value="true" />
+      <created>1754942014851</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754942014851</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +200,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/stanwithley/Course-API&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
+    <MESSAGE value="s was removed" />
+    <MESSAGE value="student added" />
+    <MESSAGE value="error added" />
+    <MESSAGE value="list added" />
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
 </project>

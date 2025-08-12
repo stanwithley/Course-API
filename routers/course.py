@@ -35,5 +35,5 @@ def delete_course(course_id: str):
     return {"deleted": True}
 
 @router.get("/instructors/{instructor_id}/courses/", response_model=list[CourseOut])
-def courses_by_instructor(instructor_id: str):
-    return crud.list_courses_by_instructor(instructor_id)
+def courses_by_instructor(course_id: str):
+    return crud.list_courses_by_instructor(course_id)
